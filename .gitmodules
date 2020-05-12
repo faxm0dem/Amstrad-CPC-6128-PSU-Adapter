@@ -1,0 +1,3 @@
+[submodule "4x1md-kicad"]
+	path = 4x1md-kicad
+	url = https://github.com/4x1md/kicad_libraries.git

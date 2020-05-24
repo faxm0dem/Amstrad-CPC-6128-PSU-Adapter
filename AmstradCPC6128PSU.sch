@@ -58,11 +58,9 @@ Wire Wire Line
 Text Label 3650 2550 1    50   ~ 0
 +12V
 Text Label 4250 2550 1    50   ~ 0
-+12V
-Text Label 4050 2550 1    50   ~ 0
-+5V
-Text Label 4150 2550 1    50   ~ 0
-+5V
++12Vb
+Text Label 3750 2550 1    50   ~ 0
++5Vb
 Text Label 5150 3250 0    50   ~ 0
 GND
 Text Label 5150 3450 0    50   ~ 0
@@ -71,16 +69,12 @@ Text Label 3200 3250 0    50   ~ 0
 GND
 Text Label 3200 3350 0    50   ~ 0
 +5V
-Text Label 3750 2550 1    50   ~ 0
+Text Label 4050 2550 1    50   ~ 0
 GND
 Text Label 3450 2850 0    50   ~ 0
 GND
-Text Label 3850 2550 1    50   ~ 0
+Text Label 4150 2550 1    50   ~ 0
 GND
-Wire Wire Line
-	3750 2550 3850 2550
-Wire Wire Line
-	4050 2550 4150 2550
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5ECBE526
@@ -92,13 +86,13 @@ F 3 "~" H 4100 3800 50  0001 C CNN
 	1    4100 3800
 	1    0    0    -1  
 $EndComp
-Text Label 4300 3900 0    50   ~ 0
-GND
 Text Label 4300 4000 0    50   ~ 0
-+5V
-Text Label 4300 3700 0    50   ~ 0
-+12V
+GND
 Text Label 4300 3800 0    50   ~ 0
++5Vb
+Text Label 4300 3700 0    50   ~ 0
++12Vb
+Text Label 4300 3900 0    50   ~ 0
 SW
 Text Label 5250 3350 0    50   ~ 0
 SW
@@ -128,4 +122,6 @@ F 3 "~" H 1700 3150 50  0001 C CNN
 	1    1700 3150
 	1    0    0    -1  
 $EndComp
+Text Label 3850 2550 1    50   ~ 0
++5V
 $EndSCHEMATC

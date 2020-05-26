@@ -61,9 +61,9 @@ Text Label 4250 2550 1    50   ~ 0
 +12Vb
 Text Label 3750 2550 1    50   ~ 0
 +5Vb
-Text Label 5150 3250 0    50   ~ 0
-GND
 Text Label 5150 3450 0    50   ~ 0
+GND
+Text Label 5150 3250 0    50   ~ 0
 +12V
 Text Label 3200 3250 0    50   ~ 0
 GND
